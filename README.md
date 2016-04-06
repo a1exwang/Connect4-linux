@@ -49,6 +49,16 @@
     gdb /usr/bin/cli -x=gdb-cmd
     # You can use gdb-server and connnect an IDE(e.g. Eclipse) to it.
 
+## How to build test cases
+
+    cp -r *{1,3,5,7,9} TestCases/
+    cd TestCases
+    ./compileall.sh
+    ls
+    # => 1.so 3.so 5.so...
+
+    # example1, example2 are examples of the file tree structure
+
 ## Status
 
 - Tested on Ubuntu 16.04 64bit
