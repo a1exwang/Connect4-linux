@@ -17,19 +17,25 @@
 
 1. Strategy
   
+
     cd Strategy
     make
 
+
 2. Compete
     
+
     cd Compete
     make
 
+
 3. UI
+
 
     cd UI
     monodevelop UI.csproj
     # Press F7 to build
+
 
 ## Run
 
